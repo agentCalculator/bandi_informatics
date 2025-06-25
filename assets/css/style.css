@@ -10388,3 +10388,39 @@ div#mCSB_1_container{
 .header-style-three .menu-area .mobile-nav-toggler .icon-bar{
   background: #fff;
 }
+
+.strengths {
+  background: #f8f9fa;
+  padding: 24px 20px;
+  border-radius: 8px;
+  margin-top: 24px;
+}
+.strengths h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #222;
+}
+.strengths ul {
+  font-size: 0.95rem;
+  color: #444;
+  padding-left: 20px;
+  margin: 0;
+  list-style: disc inside;
+}
+
+.strengths ul li {
+  margin-bottom: 7px;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 18px;
+}
+
+.strengths ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #0D7DFC;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
